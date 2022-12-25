@@ -80,8 +80,6 @@ img {
     color: var(--primary-title-color);
 
     display: block;
-    padding-top: 21px;
-    padding-bottom: 21px;
 }
 /* contacts */
 .contacts {
@@ -125,9 +123,6 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-title-color);
-    
-    
-    margin-top: 32px;
 }
 .section-text {
     font-size: 16px;
@@ -200,7 +195,7 @@ img {
     display: flex;
     gap: 24px;
 }
-
+    
 /* what are we doing */
 .doing-list {
     display: flex;
@@ -228,6 +223,7 @@ img {
     background: #F4F4FD;
 }
 .teem-name {
+    padding-top: 32px;
     text-align: center;
 }
 /* portfolio main*/
@@ -297,6 +293,8 @@ img {
 }
 .footer .logo{
     color: #F4F4FD;
+
+    margin: 0;
 }
 .footer-text {
     margin-top: 16px;
